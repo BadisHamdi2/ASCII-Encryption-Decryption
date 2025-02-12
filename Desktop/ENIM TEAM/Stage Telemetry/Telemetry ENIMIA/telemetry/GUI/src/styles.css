@@ -1,0 +1,230 @@
+.app{
+    height: 700px;
+    width: 1150px;
+    background-image: linear-gradient(to right,rgb(230, 225, 225),rgb(179, 177, 177));
+    
+    
+  }
+  .app2{
+    display: flex;
+  }
+  .app3{
+    display: flex;
+  }
+
+.title{
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 5px;
+    color: black;
+    text-align: center;
+    animation: animate 2s linear infinite;
+}
+@keyframes animate {
+  0%
+  {
+    color: rgb(17, 2, 100);
+  }
+  
+}
+.section-box-batterie{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 60px 100px;
+  position: relative;
+  padding-top:20px;
+  width: 260px;
+  height: 150px;
+  display: inline-block;
+}
+
+.section-box-moteur{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 60px 100px;
+  position: relative;
+  padding-top:20px;
+  width: 260px;
+  height: 150px;
+  display: inline-block;
+}
+.section-box-horn{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 60px 100px;
+  position: relative;
+  padding-top:20px;
+  width: 260px;
+  height: 70px;
+}
+.section-box-humidite{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 60px 100px;
+  position: relative;
+  padding-top:20px;
+  width: 260px;
+  height: 70px;
+}
+
+
+.batterie{
+    color:black;
+    font-style: italic;
+    font-size: 1.5em;
+    padding: 0 10px;
+    margin: 10px 120px;
+    position: absolute;
+    top: -50px; /* Moves the title up to make it overlap */
+    left: 5px;
+    border-radius: 5px;
+    z-index: 2;
+    animation: animate 2s linear infinite;
+  }
+.humidite{
+  color:black;
+  font-style: italic;
+    font-size: 1.5em;
+    padding: 0 10px;
+    margin: 10px 120px;
+    position: absolute;
+    top: -50px; /* Moves the title up to make it overlap */
+    left: 10px;
+    border-radius: 5px;
+    z-index: 2;
+    animation: animate 2s linear infinite;
+}
+
+
+
+
+  .intensite{
+    color:black;
+    margin-right:20px;
+  }
+
+  .tension{
+    color:black;
+    margin-left: 110px;
+  }
+
+
+  .input-intensite{
+    height: 50px;
+    width: 70px;
+
+    border: #fff;
+    margin-left:-5px;
+    
+    
+  }
+
+  .input-tension{
+    height: 50px;
+    width: 70px;
+   
+    border: black;
+    margin-left: 105px;
+    margin-top: 10px;
+    
+  }
+
+ .temperature{
+  color:black;
+  margin-left: 80px;
+  margin-top:40px;
+
+ }
+
+  .input-temperature{
+    height: 50px;
+    width: 70px;
+    
+    border: black;
+    margin-top:10px;
+    margin-left:82px;
+  }
+  
+  
+
+.label{
+  margin-top: 40px;
+}
+  .vitesse{
+    color:black;
+    margin-right:20px;
+  }
+
+  .temperature2{
+    color:black;
+    margin-left: 100px;
+  }
+
+
+  .input-vitesse{
+    height: 50px;
+    width: 70px;
+    
+    border: black;
+    margin-left:-8px;
+    
+    
+  }
+
+  .input-temperature2{
+    height: 50px;
+    width: 70px;
+    
+    border: black;
+    margin-left: 105px;
+    margin-top: 10px;
+    
+  }
+  
+.sound{
+  color: black;
+  padding: 110px;
+
+}
+
+.input-sound{
+  height: 50px;
+    width: 70px;
+    
+    border: black;
+    margin-top:10px;
+    margin-left:90px;
+}
+
+.label-humidite{
+  color: black;
+  padding: 80px;
+}
+
+.input-humidite{
+  height: 50px;
+    width: 70px;
+    
+    border: black;
+    margin-top:30px;
+    margin-left:90px;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: auto;
+  
+}
+.shell{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  overflow: auto;
+}
+
